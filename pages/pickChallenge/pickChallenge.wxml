@@ -1,0 +1,38 @@
+<cu-custom bgColor="bg-blue" isBack="{{true}}">
+  <view slot="backText">Back</view>
+  <view slot="content"></view>
+</cu-custom>
+
+<view class='title'>
+    <text>Choose a Habit</text> 
+</view>
+
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view class="cu-bar margin-top bg-white">
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>Exercise
+  </view>
+ 
+  <view class="action">
+    <text class="cuIcon-title text-blue"></text>Meditate
+  </view>
+  <view class="action">
+    <radio-group bindchange="SetBorderSize">
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="" checked></radio>
+      </label>
+      <label class="margin-left-sm">
+        <radio class="blue sm radio" value="s"></radio>
+      </label>
+    </radio-group>
+  </view>
+</view>
+
