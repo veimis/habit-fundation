@@ -1,0 +1,26 @@
+<view class="backGround">
+<cu-custom  isBack="{{true}}" class="custom-button">
+  <view slot="backText"></view>
+</cu-custom>
+<view class="title flex padding-xl">Run 1KM a day</view>
+<button></button>
+<view class="flex padding-sm">
+  <button class="myButton  margin-sm" bindtap="navigateToNannyProfile">100 RMB</button> 
+  
+</view>
+<view class="flex padding-sm">
+ <button class="myButton  margin-sm" bindtap="navigateToNannyProfile">30 Days</button> 
+  
+</view>
+
+<view class="flex padding-sm">
+ <button class="myButton  margin-sm" bindtap="navigateToNannyProfile">10 People</button> 
+  
+</view>
+
+<view class="flex padding-xl">
+ <button class="joinButton  margin-sm" bindtap="navigateToNannyProfile">Join</button> 
+  
+</view>
+
+</view>

@@ -1,0 +1,12 @@
+.myButton {
+  background: #3CAEA3;
+  border: 3px solid white;
+  font-size: 15px;
+  padding: 12px;
+  display: block;
+  line-height: 1.2em;
+  font-family: inherit;
+  color: inherit;
+  width: 25vw;
+  height: 15vh;
+}

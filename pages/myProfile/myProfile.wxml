@@ -1,0 +1,31 @@
+<cu-custom bgColor="bg-blue" isBack="{{true}}">
+  <view slot="backText">Back</view>
+</cu-custom>
+<scroll-view scroll-y class="scrollPage">
+      <view class='text-center padding-xl'>
+        <view class="cu-avatar xl round solids" style="background-image:url(https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1115&q=80);"></view>
+        <view class='padding-sm'>Ben H</view>
+      </view>
+      <view class=' flex padding-sm'>My Progress</view>
+      <view class="padding bg-white">    
+      <view class="cu-progress radius striped active">      
+      <view class="bg-blue" style="width:30%"></view>    
+      </view>  
+      </view>
+      <view class=' flex padding-sm'>My Challenges</view>
+    <view class="flex  p-xs margin-bottom-sm mb-sm">
+      <view class="flex-sub  padding-sm margin-xs radius">
+
+  <button class="myButton margin-sm">Run 1km per day</button> 
+
+      </view>
+      <view class="flex-twice padding-sm radius">
+      <view class="padding bg-white">    
+      <view class="cu-progress radius striped active">      
+      <view class="bg-blue" style="width:30%"></view>    
+      </view>  
+      </view>
+      </view>
+      
+    </view>
+</scroll-view>
