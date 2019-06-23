@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/choosingGroup/choosingGroup",
+    "pages/progress/my_progress/progress",
+    "pages/progress/submissions/submissions"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,5 +15,17 @@
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/choosingGroup/choosingGroup",
+        "text": "Join a Group"
+      }
+    ]
+  }
 }

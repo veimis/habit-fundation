@@ -1,5 +1,21 @@
 Page({
+  groupView: function(){
+    wx.navigateTo({
+      url: '../group-view/group-view',
+    })
+  },
+  showModal(e) {
+    this.setData({
+      modalName: e.currentTarget.dataset.target
+    })
+  },
+  hideModal(e) {
+    this.setData({
+      modalName: null
+    })
+  },
   data: {
+    payment: 100,
     cardCur: 0,
     swiperList: [{
       id: 0,

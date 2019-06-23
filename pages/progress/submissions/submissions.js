@@ -1,24 +1,18 @@
- // group-view.js
+// pages/progress/submissions/submissions.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    avatarList:[
-      "/images/ninja.jpeg",
-      "/images/lady.jpeg",
-      "/images/man.jpeg",
-      "/images/manager.jpeg",
-      "/images/superman.jpeg"
-    ]
+
   },
 
   /**
    * Lifecycle function--Called when page load
    */
-  onLoad: function () {
-    
+  onLoad: function (options) {
+
   },
 
   /**

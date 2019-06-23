@@ -16,4 +16,12 @@
   <view class="text-center margin-top">
     <text class="text-grey text-xl">{{motto}}</text>
   </view>
+
+</view>
+<view class="text-center margin-top">
+  <text class="text-grey text-xl">{{motto}}</text>
+</view>
+<view class="text-center margin-top">
+  <text class="text-grey text-xl">This is Mohamed</text>
+
 </view>
