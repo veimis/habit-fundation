@@ -5,7 +5,10 @@ Page({
    * Page initial data
    */
   data: {
-
+    pics: [
+      "/images/Run.png",
+    
+    ]
   },
 
   /**
