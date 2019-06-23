@@ -65,5 +65,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  navigateToPick(){
+    wx.navigateTo({
+      url: "../pickChallenge/pickChallenge",
+    })
   }
 })
