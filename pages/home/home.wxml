@@ -1,0 +1,4 @@
+<view class="banner">
+            <view class="headline">Welcome to Habit FUNdation</view>
+            <view class='button'><button class="cu-btn bg-blue lg" ontap="navigateToSearch">Start today</button></view>
+          </view>

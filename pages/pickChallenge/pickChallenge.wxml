@@ -7,7 +7,7 @@
     <text>Choose a Habit</text> 
 </view>
 
-<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
   <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
     <view class="swiper-item">
       <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
@@ -16,23 +16,12 @@
   </swiper-item>
 </swiper>
 
-<view class="cu-bar margin-top bg-white">
-  <view class="action">
-    <text class="cuIcon-title text-blue"></text>Exercise
-  </view>
- 
-  <view class="action">
-    <text class="cuIcon-title text-blue"></text>Meditate
-  </view>
-  <view class="action">
-    <radio-group bindchange="SetBorderSize">
-      <label class="margin-left-sm">
-        <radio class="blue sm radio" value="" checked></radio>
-      </label>
-      <label class="margin-left-sm">
-        <radio class="blue sm radio" value="s"></radio>
-      </label>
-    </radio-group>
-  </view>
-</view>
+<radio-group class="radio-group" >
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
 
+<view class='flex justify-center margin-top'>
+<button class="cu-btn bg-blue lg" ontap="navigateToSearch">Submit</button>
+</view>

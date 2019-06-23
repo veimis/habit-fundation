@@ -30,7 +30,19 @@ Page({
       type: 'image',
         url: 'https://images.unsplash.com/photo-1521986329282-0436c1f1e212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80'
     }],
+  
+      items: [
+        { name: 'Exercise', value: 'Exercise'},
+        { name: 'Meditate', value: 'Meditate', checked: 'true'},
+        { name: 'Read', value: 'Read'},
+        { name: 'Wake up on time', value: 'Wake up on time'},
+        { name: 'Coding', value: 'Coding'},
+        { name: 'Quit Smoking', value: 'Quit Smoking'},
+        { name: 'Eat healthy', value: 'Eat Healthy' },
+      ]
   },
+
+
   onLoad() {
     this.towerSwiper('swiperList');
     // 初始化towerSwiper 传已有的数组名即可
