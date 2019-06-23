@@ -3,6 +3,7 @@
   <view slot="content"></view>
 </cu-custom>
 
+<view class='body'>
 <view class='title'>
     <text>Choose a Habit</text> 
 </view>
@@ -23,5 +24,6 @@
 </radio-group>
 
 <view class='flex justify-center margin-top'>
-<button class="cu-btn bg-blue lg" ontap="navigateToSearch">Submit</button>
+<button class="cu-btn bg-blue lg" ontap="navigateToGroup">Submit</button>
+</view>
 </view>

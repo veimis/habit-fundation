@@ -82,6 +82,9 @@ Page({
       direction: e.touches[0].pageX - this.data.towerStart > 0 ? 'right' : 'left'
     })
   },
+  navigateToGroup() {
+    wx.navigateTo({ url: '/pages/choosingGroup/choosingGroup' })
+  },
   // towerSwiper计算滚动
   towerEnd(e) {
     let direction = this.data.direction;

@@ -56,6 +56,9 @@ Page({
   onReachBottom: function () {
 
   },
+  navigateToStart() {
+    wx.navigateTo({ url: '/pages/pickChallenge/pickChallenge' })
+  },
 
   /**
    * Called when user click on the top right corner to share

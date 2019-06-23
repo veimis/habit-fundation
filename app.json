@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/choosingGroup/choosingGroup",
+    "pages/home/home",
+    "pages/termination/termination",
+    "pages/pickChallenge/pickChallenge",
     "pages/progress/my_progress/progress",
+    "pages/choosingGroup/choosingGroup",
     "pages/progress/submissions/submissions"
   ],
   "window": {
@@ -15,17 +17,6 @@
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
   },
-  "sitemapLocation": "sitemap.json",
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "Home"
-      },
-      {
-        "pagePath": "pages/choosingGroup/choosingGroup",
-        "text": "Join a Group"
-      }
-    ]
-  }
+  "sitemapLocation": "sitemap.json"
+  
 }
