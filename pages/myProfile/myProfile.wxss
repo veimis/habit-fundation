@@ -10,3 +10,7 @@
   width: 25vw;
   height: 15vh;
 }
+.habits {
+  font-size: 11px;
+  text-align: center;
+}

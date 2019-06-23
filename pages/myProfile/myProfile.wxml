@@ -6,7 +6,7 @@
         <view class="cu-avatar xl round solids" style="background-image:url(https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1115&q=80);"></view>
         <view class='padding-sm'>Ben H</view>
       </view>
-      <view class=' flex padding-sm'>My Progress</view>
+      <view class=' flex padding'>My Progress</view>
       <view class="padding bg-white">    
       <view class="cu-progress radius striped active">      
       <view class="bg-blue" style="width:30%"></view>    
@@ -27,5 +27,20 @@
       </view>
       </view>
       
+    </view>
+    <view class=' flex padding-sm'>All Habits</view>
+    <view>
+    <view class="flex  p-xs margin-bottom-sm mb-sm">
+      <view class="flex-sub padding-sm margin-xs radius"><view class="cu-avatar xl  solids" style="background-image:url(http://jamaicahospital.org/newsletter/wp-content/uploads/2018/01/quit-smoking-587224878.jpg);"></view></view>
+      <view class="flex-sub padding-sm margin-xs radius"><view class="cu-avatar xl  solids" style="background-image:url(https://www.rd.com/wp-content/uploads/2017/01/01-same-reasons-hit-workout-plateau-500886685-ferrantraite.jpg);"></view></view>
+      <view class="flex-sub padding-sm margin-xs radius"><view class="cu-avatar xl  solids" style="background-image:url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Flearnvest%2Ffiles%2F2017%2F03%2FWoman-holding-bowl-of-avocado-salad-1200x800.jpg);"></view></view>
+      <view class="flex-sub padding-sm margin-xs radius"><view class="cu-avatar xl  solids" style="background-image:url(https://www.rewireme.com/wp-content/uploads/2015/04/042515_How-to-Get-Up-Early.jpg);"></view></view>
+    </view>
+    <view class="flex  p-xs margin-bottom-sm mb-sm habits">
+      <view class="flex-sub margin-xs radius">   Quit Smoking</view>
+      <view class="flex-sub margin-xs radius">   Work Out</view>
+      <view class="flex-sub  margin-xs radius">   Eat Healthily</view>
+      <view class="flex-sub  margin-xs radius">   Get Up Early</view>
+    </view>
     </view>
 </scroll-view>
