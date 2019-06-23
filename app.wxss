@@ -1,2 +1,10 @@
 @import "colorui/main.wxss";
 @import "colorui/icon.wxss";
+
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  background-color: #F9EADA;
+
+  height: 100vh;
+}

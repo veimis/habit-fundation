@@ -1,29 +1,31 @@
-<view class="cu-list menu">
-    <view class="cu-item">
-      <view class="content">
-        <text>RUN 1KM A DAY</text>
+<view class="body">
+  <view class="cu-list menu">
+      <view class="cu-item">
+        <view class="content">
+          <text>RUN 1KM A DAY</text>
+        </view>
       </view>
-    </view>
-    <view class="cu-item">
-      <view class="content">
-        <text>MEMBERS</text>
-          <view class="cu-item">
-          <view class="cu-list grid col-5 no-border">
-            <view class="cu-item" wx:for="{{avatarList}}" wx:key wx:if="{{index<5}}">
-              <view class="cu-avatar round" style="background-image:url({{item}});"></view>
+      <view class="cu-item">
+        <view class="content">
+          <text>MEMBERS</text>
+            <view class="cu-item">
+            <view class="cu-list grid col-5 no-border">
+              <view class="cu-item" wx:for="{{avatarList}}" wx:key wx:if="{{index<5}}">
+                <view class="cu-avatar round" style="background-image:url({{item}});"></view>
+              </view>
             </view>
           </view>
         </view>
       </view>
-    </view>
-    <view class="cu-item">
-      <view class="content">
-        <text>YOUR PROGRESS</text>
-        <view class="bg-white">
-            <view class="cu-progress radius striped active">
-              <view class="bg-blue" style="width:30%"></view>
+      <view class="cu-item">
+        <view class="content">
+          <text>YOUR PROGRESS</text>
+          <view class="bg-white">
+              <view class="cu-progress radius striped active">
+                <view class="bg-blue" style="width:30%"></view>
+              </view>
             </view>
-          </view>
+        </view>
       </view>
-    </view>
+  </view>
 </view>
