@@ -1,3 +1,7 @@
+<cu-custom  isBack="{{true}}">
+  <view slot="backText">Back</view>
+  <view slot="content"></view>
+</cu-custom>
 <view class="banner">
             <view class="headline">Congratulations</view>
             

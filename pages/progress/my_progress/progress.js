@@ -111,6 +111,10 @@ Page({
       })
     }
   },
+  navigateToCongrats() {
+    wx.navigateTo({ url: '/pages/termination/termination' })
+  },
+
   getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

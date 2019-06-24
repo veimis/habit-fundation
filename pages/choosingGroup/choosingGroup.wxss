@@ -22,7 +22,6 @@
 }
 .joinButton{
   color: white;
-  background-color: #DE541E;
   font-size: 15px;
   padding: none;
 }

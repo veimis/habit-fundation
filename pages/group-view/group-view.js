@@ -62,6 +62,9 @@ Page({
   onReachBottom: function () {
 
   },
+  navigateToProgress() {
+    wx.navigateTo({ url: '/pages/progress/my_progress/progress' })
+  },
 
   /**
    * Called when user click on the top right corner to share

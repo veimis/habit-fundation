@@ -1,4 +1,5 @@
-<cu-custom bgColor="bg-gradual-blue">
+<cu-custom bgColor="bg-blue" isBack="{{true}}">
+  <view slot="backText">Back</view>
   <view slot="content"></view>
 </cu-custom>
 <view class="margin-xl padding-xl  radius shadow shadow-lg">
@@ -19,6 +20,7 @@
   <view class="padding-xs">
     <text class="text-grey text-xl">Challenge 1</text>
   </view>
+  
   <view class="cu-bar">
     <view class="action">Upload Proof</view>
     <view class="action">{{imgList.length}}/4</view>
@@ -53,8 +55,15 @@
       <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
       <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
     </view>
+
   </swiper-item>
 </swiper>
+
+</view><view class='cu-item'>
+        <view class='flex justify-center margin-top'>
+<button class="cu-btn bg-blue lg" ontap="navigateToCongrats">Next</button>
+</view>
+
 </view>
 
 

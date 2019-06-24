@@ -39,6 +39,10 @@
               </view>
             </view>
         </view>
-      </view>
+        </view>
+      </view><view class='cu-item'>
+        <view class='flex justify-center margin-top'>
+<button class="cu-btn bg-blue lg" ontap="navigateToProgress">Go to Progress</button>
+</view>
   </view>
 </view>
